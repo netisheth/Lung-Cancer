@@ -1,9 +1,7 @@
-#' Assignment A7: Survival Models
 #' Data: LungCancer.txt
 
 #' Read and clean data
 
-setwd("C:/Users/abhatt/Desktop/SDM/Data")
 d <- read.table("LungCancer.txt", skip=15)
 colnames(d) <- c("treatment", "cell_type", "survival",	"status",	"karnofsky_score",
                 "months_from_diagnosis", "age", "prev_chemo")
