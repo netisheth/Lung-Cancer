@@ -30,8 +30,6 @@ Variables not considered as predictors:
 
 <img src="https://github.com/netisheth/Lung-Cancer/blob/main/Pictures/ModelSummary.png" alt="alt text" width="50%" height="50%">
 
-Interpretation:
-
 Cox proportional hazard model reports estimated hazard rates, which are pretty consistent with survival probabilities reported by Exponential and Weibull models, all of which are a little different from the log-logistic model. Hence, we will use the Cox PH model for interpretation.
 
 The hazard rate of the test treatment is greater than the standard treatment by exp(0.55) = 73%. Age has no significant effect on hazard rate on its own (0.4%) or in interaction with different treatments (<0.1%). Months from diagnosis also seems to have an insubstantive effect (0.7%). Previous chemotherapy decreases hazard rate by 14% (independent of treatment). Non-small cell cancer has a 43% less hazard rate for the test treatment compared to standard treatment and a 61% less hazard rate compared to small-cell cancer. None of these coefficients are significant due to high standard error, possibly caused by small sample size.
