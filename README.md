@@ -1,6 +1,8 @@
 # Lung-Cancer
 
-Perform survival analysis on data from a Veteran's Administration Lung Cancer Trial, where 137 patients with advanced, inoperable lung cancer were treated with chemotherapy (standard treatment) vs chemotherapy combined with a new drug (test treatment).
+Determined how long a patient is likely to survive advanced inoperable lung cancer when treated with chemotherapy (standard treatment) vs chemotherapy combined with a new drug (test treatment).
+
+Data gathered from Veteran's Administration Lung Cancer Trial, where 137 patients with advanced, inoperable lung cancer were treated with chemotherapy (standard treatment) vs chemotherapy combined with a new drug (test treatment).
 
 ### 1. Kaplan-Meier survival graphs for patients with the test vs standard treatment.
 
