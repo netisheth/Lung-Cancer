@@ -30,7 +30,7 @@ Predictor variables selected for analysis:
 Variables not considered as predictors:
 - Karnofsky score: This score measures the ability of cancer patients to perform ordinary tasks. It may be used to determine a patient's prognosis, to measure changes in a patient's ability to function, or to decide if a patient could be included in a clinical trial. It is unclear how it may related to treatment outcome.
 
-<img src="https://github.com/netisheth/Lung-Cancer/blob/main/Pictures/ModelSummary.png" alt="alt text" width="50%" height="50%">
+<img src="https://github.com/netisheth/Lung-Cancer/blob/main/Pictures/ModelSummary.png" alt="alt text" width="70%" height="70%">
 
 Cox proportional hazard model reports estimated hazard rates, which are pretty consistent with survival probabilities reported by Exponential and Weibull models, all of which are a little different from the log-logistic model. Hence, we will use the Cox PH model for interpretation.
 
